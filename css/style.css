@@ -24,10 +24,11 @@ body {
 	margin-top: 20px;
 	padding-top:10px;
 }
-.key:target {
-	background-color: #FF9900;
+@keyframes example {
+    from {background-color: #FF9900;}
+    to {background-color: transparent;}
 }
-.key{
-	transition: background-color 1000ms linear;
-	background-color: transparent;
+.key:target {
+	animation-name: example;
+    animation-duration: 3s; 
 }
