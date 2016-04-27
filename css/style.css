@@ -25,7 +25,7 @@ body {
 	padding-top:10px;
 }
 @keyframes example {
-    from {background-color: #FF9900;}
+    from {background-color: #6688FF;}
     to {background-color: transparent;}
 }
 .key:target {
