@@ -75,6 +75,9 @@ table, th, td {
 table {
     border-collapse: collapse;
 }
-li > li > li > ul {
-    list-style-type:circle;
+li li li ul {
+  list-style-type: circle;
+}
+li li li li ul {
+  list-style-type: default;
 }
