@@ -79,5 +79,5 @@ li li li ul {
   list-style-type: circle;
 }
 li li li li ul {
-  list-style-type: default;
+  list-style-type: initial;
 }
