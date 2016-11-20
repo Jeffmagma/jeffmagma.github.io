@@ -2,24 +2,29 @@
     <head>
         <title>playing with balls</title>
         <style>
-        #canvas-container {
-            overflow-x: hidden;
-            overflow: hidden;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
-        #canvas {
-            position: fixed;
-            top: 0;
-            left: 0;
-            z-index: -1;
-        }
+            #button-container {
+                width: 100%;
+                height: 5%;
+            }
+            #canvas-container {
+                overflow-x: hidden;
+                overflow: hidden;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 95%;
+            }
+            #canvas {
+                position: fixed;
+                top: 0;
+                left: 0;
+                z-index: -1;
+            }
         </style>
     </head>
     <body>
+        <div id="button-container"></div>
         <div id="canvas-container" style="overflow:hidden">
             <canvas id="canvas"></canvas>
         </div>
