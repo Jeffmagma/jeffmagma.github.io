@@ -18,6 +18,13 @@
             z-index: -1;
         }
         </style>
+        <script>
+        function makeballs(b) {
+            particles.length = 1;
+            for (var i = 0; i < b - 1; i++)
+                particles.push(makeParticle());
+        }
+        </script>
     </head>
     <body>
         <div id="canvas-container" style="overflow:hidden">
